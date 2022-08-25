@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #C5E7E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  border: 6px black dotted;
+  padding: 20px;
+}
+
+.image{
+  width: 16rem;
+  height: 10rem;
+}
